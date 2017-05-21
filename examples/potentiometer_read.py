@@ -6,7 +6,7 @@ board = NanoPlayBoard()
 
 def loop():
     value = board.potentiometer.read()
-    print("Potentiometer: {}".format(value))
+    print(("Potentiometer: {}".format(value)))
     board.sleep(0.1)
 
 if __name__ == "__main__":

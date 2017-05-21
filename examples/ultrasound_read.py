@@ -6,7 +6,7 @@ board = NanoPlayBoard()
 
 def loop():
     value = board.ultrasound.read()
-    print("Ultrasound: {}".format(value))
+    print(("Ultrasound: {}".format(value)))
     board.sleep(0.1)
 
 if __name__ == "__main__":

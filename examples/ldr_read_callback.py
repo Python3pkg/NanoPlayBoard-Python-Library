@@ -5,7 +5,7 @@ from nanoplayboard.nanoplayboard import NanoPlayBoard
 board = NanoPlayBoard()
 
 def ldr_callback(data):
-    print("ldr: {}".format(data))
+    print(("ldr: {}".format(data)))
 
 def loop():
     board.ldr.read(ldr_callback)

@@ -6,7 +6,7 @@ board = NanoPlayBoard()
 
 def loop():
     value = board.ldr.read()
-    print("Ldr: {}".format(value))
+    print(("Ldr: {}".format(value)))
     board.sleep(0.1)
 
 if __name__ == "__main__":

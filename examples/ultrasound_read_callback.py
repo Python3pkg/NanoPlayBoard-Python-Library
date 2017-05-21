@@ -5,7 +5,7 @@ from nanoplayboard.nanoplayboard import NanoPlayBoard
 board = NanoPlayBoard()
 
 def read_callback(data):
-    print("Ultrasound: {}".format(data))
+    print(("Ultrasound: {}".format(data)))
 
 def loop():
     board.ultrasound.read(read_callback)

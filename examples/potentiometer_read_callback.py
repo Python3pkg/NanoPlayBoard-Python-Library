@@ -5,7 +5,7 @@ from nanoplayboard.nanoplayboard import NanoPlayBoard
 board = NanoPlayBoard()
 
 def read_callback(data):
-    print("potentiometer: {}".format(data))
+    print(("potentiometer: {}".format(data)))
 
 def loop():
     board.potentiometer.read(read_callback)

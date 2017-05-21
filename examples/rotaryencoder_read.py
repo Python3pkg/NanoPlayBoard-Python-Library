@@ -6,7 +6,7 @@ board = NanoPlayBoard()
 
 def loop():
     value = board.rotaryencoder.read()
-    print("RotaryEncoder: {}".format(value))
+    print(("RotaryEncoder: {}".format(value)))
     board.sleep(0.1)
 
 if __name__ == "__main__":

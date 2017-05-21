@@ -19,7 +19,7 @@ General Public License for more details.
 """
 
 import asyncio
-from nanoplayboard.nano_pymata_core import NanoPymataCore
+from .nanoplayboard.nano_pymata_core import NanoPymataCore
 from functools import singledispatch
 
 
